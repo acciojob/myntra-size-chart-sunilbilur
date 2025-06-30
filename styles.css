@@ -1,2 +1,21 @@
 
 /* Your CSS Code here. */
+    table.size-chart {
+      width: 100%;
+      max-width: 600px;
+      border-collapse: collapse;
+      margin: 20px auto;
+      font-family: Arial, sans-serif;
+    }
+    table.size-chart thead {
+      background-color: #f2f2f2;
+    }
+    table.size-chart th,
+    table.size-chart td {
+      border: 1px solid #ccc;
+      padding: 8px 12px;
+      text-align: center;
+    }
+    table.size-chart th {
+      font-weight: bold;
+    }
